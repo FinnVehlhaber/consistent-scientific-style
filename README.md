@@ -30,7 +30,7 @@
     - if the subscript is a variable or index: normal (```$\mathbf{A}_{ij}$```)
     - if the subscript is text: text mode (```$\mathbf{v}_\mathrm{ECI}$```)
     - Indexes are such that there exist alphabetically consecutive letters when necessary (e.g., ```$i,j$ for adjacent nodes```)
-  - Sets: caligraphic uppercase (e.g. ```$\mathcal{A}$ is the set of agents```)
+- Sets: caligraphic uppercase (e.g. ```$\mathcal{A}$ is the set of agents```)
   
 ### Equations
 
