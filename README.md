@@ -11,17 +11,17 @@
 ### Writing
 
 - Simple enumerations with oxford comma before “and”
-  - e.g. *I need to buy sugar, flour, and chocolate)*
+  - e.g. *I need to buy sugar, flour, and chocolate*
 - Long text enumerations with nonbreaking space “~”, separated by semicolon, and enumerated with (i), (ii)…
   - e.g. *I need to buy (i)~sugar; (ii)~flour; and (iii)~chocolate*
 - Units should be typeset in $\mathrm{}$ style
   - e.g. ```$\omega = 7.29\times10^{-5}\,\mathrm{rad/s}$```
-- Acronims should be only introduced once
-   - e.g. "this is a challenge idetified by the United Nations (UN)"
+- Acronyms should be only introduced once
+   - e.g. "this is a challenge identified by the United Nations (UN)"
    - 
 
 ### Variables
-
+- named according to either scientific convention (e.g. ```$P$ is a power```) or given a sensible name
 - Scalar constant: roman uppercase (e.g. ```$T\in \mathbb{R}$ is the sampling time```)
 - Scalar functions: roman lowercase (e.g. ```$r(h)$ is the density as a function of altitude```)
 - Matrices: bold roman uppercase (e.g. ```$\mathbf{B}$ is the incidence matrix```)
@@ -29,7 +29,7 @@
 - Subscripts/Superscript:
     - if the subscript is a variable or index: normal (```$\mathbf{A}_{ij}$```)
     - if the subscript is text: text mode (```$\mathbf{v}_\mathrm{ECI}$```)
-
+    - Indexes are such that there exist alphabetically consecutive letters when necessary (e.g., ```$i,j$ for adjacent nodes```)
 ### Equations
 
 - Only equations which are referenced are numbered  (```\begin{equation*}``` wo/ numbering)
